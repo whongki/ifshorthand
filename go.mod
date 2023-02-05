@@ -1,4 +1,4 @@
-module github.com/esimonov/ifshort
+module github.com/whongki/ifshorthand
 
 go 1.17
 

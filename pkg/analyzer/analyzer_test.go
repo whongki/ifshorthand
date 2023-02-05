@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/esimonov/ifshort/pkg/analyzer"
+	"github.com/whongki/ifshorthand/pkg/analyzer"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

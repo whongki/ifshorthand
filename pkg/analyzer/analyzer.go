@@ -22,9 +22,9 @@ func init() {
 	Analyzer.Flags.IntVar(&maxDeclChars, "max-decl-chars", 30, maxDeclCharsUsage)
 }
 
-// Analyzer is an analysis.Analyzer instance for ifshort linter.
+// Analyzer is an analysis.Analyzer instance for ifshorthand linter.
 var Analyzer = &analysis.Analyzer{
-	Name:     "ifshort",
+	Name:     "ifshorthand",
 	Doc:      "Checks that your code uses short syntax for if-statements whenever possible.",
 	Run:      run,
 	Requires: []*analysis.Analyzer{inspect.Analyzer},

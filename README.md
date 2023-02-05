@@ -1,4 +1,4 @@
-This repository is a fork from ifshort due to ifshort's archive. 
+This repository is a fork from ifshorthand due to ifshorthand's archive. 
 ---
 
 # ifshorthand
@@ -81,7 +81,7 @@ etc.
 ## Usage
 
 ```shell
-usage: ifshort [--max-decl-chars {integer}] [--max-decl-lines {integer}] [INPUT]
+usage: ifshorthand [--max-decl-chars {integer}] [--max-decl-lines {integer}] [INPUT]
 
 positional arguments:
   INPUT
@@ -96,9 +96,9 @@ options:
 
 Example usage to check only the variables whose declaration takes no more than 50 characters:
 
-`ifshort --max-decl-chars 50 path/to/myproject`.
+`ifshorthand --max-decl-chars 50 path/to/myproject`.
 
-With this configuration, `ifshort` won't suggest using short syntax on line 3:
+With this configuration, `ifshorthand` won't suggest using short syntax on line 3:
 
 ```go
 1 func someFunc() {
@@ -111,7 +111,7 @@ With this configuration, `ifshort` won't suggest using short syntax on line 3:
 
 Example usage to check only the variables whose declaration takes no more than 2 lines:
 
-`ifshort --max-decl-lines 2 path/to/myproject`.
+`ifshorthand --max-decl-lines 2 path/to/myproject`.
 
 ```go
 func someFunc() {
